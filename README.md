@@ -1,9 +1,7 @@
 # PIRD
 
-1. Run Write_scv_files.py
-2. Run Electre_Tri_B.py
-3. In Electre_Tri_B_main.py, choose the variance, the number of repetitions, and the cutting threshold.
-4. Run Electre_Tri_B_main.py
-5. Get results in 06_Results.csv 
+The "Technical Report_v1" is the implementation of a new Multi Criteria analysis procedure. This procedure allows the use of input data distributions to integrate the uncertainty of the data into the process using Monte Carlo principle. In this implementation the new procedure is coupled with the multi-criteria analysis method ELECTRE Tri. 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RoxaneVNinonG/PIRD/HEAD)
+In order to implement it, this procedure is applied to the choice of the best energy renovation scenario for a set of three buildings. These data located in the file "Input_Data_Parameters" were retrieved by Souleymane Daniel as part of his thesis where he applied Electre Tri individually to this project. 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RoxaneVNinonG/PIRD_v1/HEAD)
